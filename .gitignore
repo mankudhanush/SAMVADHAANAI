@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Uploads & generated files
+backend/uploads/
+static/audio/
+
+# ChromaDB persistent store
+backend/chroma_db/
+
+# Environment variables
+.env
+.env.local
+
+# Node modules (frontend)
+frontend/node_modules/
+frontend/dist/
+
+# Test files
+test_document.pdf
+test_image.png
+test_discovery.py
+test_pipeline.py
+
+# Logs
+*.log
+
+# Byte-compiled
+*.pyc
+
+# Backup files
+*.bak

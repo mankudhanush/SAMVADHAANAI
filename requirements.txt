@@ -1,0 +1,39 @@
+# Core
+fastapi>=0.115
+uvicorn[standard]>=0.34
+python-multipart>=0.0.9
+
+# LangChain
+langchain>=0.3
+langchain-core>=0.3
+langchain-ollama>=0.3
+langchain-groq>=0.3
+langchain-text-splitters>=0.3
+
+# Embeddings + Re-ranking
+sentence-transformers>=3.0
+
+# Vector store (persistent)
+chromadb>=0.5
+
+# Hybrid retrieval
+rank-bm25>=0.2
+
+# Lawyer discovery
+ddgs>=9.0
+
+# OCR & PDF
+PyMuPDF>=1.24
+Pillow>=10.0
+pytesseract>=0.3
+
+# Utilities
+pydantic>=2.0
+numpy>=1.26
+
+# Voice Pipeline
+faster-whisper>=1.0
+transformers>=4.40
+sentencepiece>=0.2
+gTTS>=2.5
+deep-translator>=1.11
